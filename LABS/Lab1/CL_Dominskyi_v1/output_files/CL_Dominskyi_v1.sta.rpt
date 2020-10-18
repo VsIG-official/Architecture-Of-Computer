@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for CL_Dominskyi_v1
-Sun Oct 18 23:53:26 2020
+Mon Oct 19 02:03:06 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -126,10 +126,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in_x1      ; out_y       ; 9.346 ; 9.346 ; 9.346 ; 9.346 ;
-; in_x2      ; out_y       ; 9.189 ; 9.189 ; 9.189 ; 9.189 ;
-; in_x3      ; out_y       ; 9.058 ; 9.058 ; 9.058 ; 9.058 ;
-; in_x4      ; out_y       ; 9.033 ; 9.033 ; 9.033 ; 9.033 ;
+; in2_x1     ; out2_y      ; 9.241 ; 9.241 ; 9.241 ; 9.241 ;
+; in2_x2     ; out2_y      ; 9.771 ; 9.771 ; 9.771 ; 9.771 ;
+; in2_x3     ; out2_y      ; 9.435 ; 9.435 ; 9.435 ; 9.435 ;
+; in2_x4     ; out2_y      ; 9.140 ; 9.140 ; 9.140 ; 9.140 ;
+; in_x1      ; out_y       ; 9.183 ; 9.183 ; 9.183 ; 9.183 ;
+; in_x2      ; out_y       ; 8.651 ; 8.651 ; 8.651 ; 8.651 ;
+; in_x3      ; out_y       ; 9.077 ; 9.077 ; 9.077 ; 9.077 ;
+; in_x4      ; out_y       ; 8.784 ; 8.784 ; 8.784 ; 8.784 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -138,10 +142,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in_x1      ; out_y       ; 9.346 ; 9.346 ; 9.346 ; 9.346 ;
-; in_x2      ; out_y       ; 9.189 ; 9.189 ; 9.189 ; 9.189 ;
-; in_x3      ; out_y       ; 9.058 ; 9.058 ; 9.058 ; 9.058 ;
-; in_x4      ; out_y       ; 9.033 ; 9.033 ; 9.033 ; 9.033 ;
+; in2_x1     ; out2_y      ; 9.241 ; 9.241 ; 9.241 ; 9.241 ;
+; in2_x2     ; out2_y      ; 9.771 ; 9.771 ; 9.771 ; 9.771 ;
+; in2_x3     ; out2_y      ; 9.435 ; 9.435 ; 9.435 ; 9.435 ;
+; in2_x4     ; out2_y      ; 9.140 ; 9.140 ; 9.140 ; 9.140 ;
+; in_x1      ; out_y       ; 9.183 ; 9.183 ; 9.183 ; 9.183 ;
+; in_x2      ; out_y       ; 8.651 ; 8.651 ; 8.651 ; 8.651 ;
+; in_x3      ; out_y       ; 9.077 ; 9.077 ; 9.077 ; 9.077 ;
+; in_x4      ; out_y       ; 8.784 ; 8.784 ; 8.784 ; 8.784 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -180,10 +188,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in_x1      ; out_y       ; 5.161 ; 5.161 ; 5.161 ; 5.161 ;
-; in_x2      ; out_y       ; 5.106 ; 5.106 ; 5.106 ; 5.106 ;
-; in_x3      ; out_y       ; 5.053 ; 5.053 ; 5.053 ; 5.053 ;
-; in_x4      ; out_y       ; 5.029 ; 5.029 ; 5.029 ; 5.029 ;
+; in2_x1     ; out2_y      ; 5.154 ; 5.154 ; 5.154 ; 5.154 ;
+; in2_x2     ; out2_y      ; 5.467 ; 5.467 ; 5.467 ; 5.467 ;
+; in2_x3     ; out2_y      ; 5.256 ; 5.256 ; 5.256 ; 5.256 ;
+; in2_x4     ; out2_y      ; 5.132 ; 5.132 ; 5.132 ; 5.132 ;
+; in_x1      ; out_y       ; 5.127 ; 5.127 ; 5.127 ; 5.127 ;
+; in_x2      ; out_y       ; 4.869 ; 4.869 ; 4.869 ; 4.869 ;
+; in_x3      ; out_y       ; 5.049 ; 5.049 ; 5.049 ; 5.049 ;
+; in_x4      ; out_y       ; 4.926 ; 4.926 ; 4.926 ; 4.926 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -192,10 +204,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in_x1      ; out_y       ; 5.161 ; 5.161 ; 5.161 ; 5.161 ;
-; in_x2      ; out_y       ; 5.106 ; 5.106 ; 5.106 ; 5.106 ;
-; in_x3      ; out_y       ; 5.053 ; 5.053 ; 5.053 ; 5.053 ;
-; in_x4      ; out_y       ; 5.029 ; 5.029 ; 5.029 ; 5.029 ;
+; in2_x1     ; out2_y      ; 5.154 ; 5.154 ; 5.154 ; 5.154 ;
+; in2_x2     ; out2_y      ; 5.467 ; 5.467 ; 5.467 ; 5.467 ;
+; in2_x3     ; out2_y      ; 5.256 ; 5.256 ; 5.256 ; 5.256 ;
+; in2_x4     ; out2_y      ; 5.132 ; 5.132 ; 5.132 ; 5.132 ;
+; in_x1      ; out_y       ; 5.127 ; 5.127 ; 5.127 ; 5.127 ;
+; in_x2      ; out_y       ; 4.869 ; 4.869 ; 4.869 ; 4.869 ;
+; in_x3      ; out_y       ; 5.049 ; 5.049 ; 5.049 ; 5.049 ;
+; in_x4      ; out_y       ; 4.926 ; 4.926 ; 4.926 ; 4.926 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -214,10 +230,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in_x1      ; out_y       ; 9.346 ; 9.346 ; 9.346 ; 9.346 ;
-; in_x2      ; out_y       ; 9.189 ; 9.189 ; 9.189 ; 9.189 ;
-; in_x3      ; out_y       ; 9.058 ; 9.058 ; 9.058 ; 9.058 ;
-; in_x4      ; out_y       ; 9.033 ; 9.033 ; 9.033 ; 9.033 ;
+; in2_x1     ; out2_y      ; 9.241 ; 9.241 ; 9.241 ; 9.241 ;
+; in2_x2     ; out2_y      ; 9.771 ; 9.771 ; 9.771 ; 9.771 ;
+; in2_x3     ; out2_y      ; 9.435 ; 9.435 ; 9.435 ; 9.435 ;
+; in2_x4     ; out2_y      ; 9.140 ; 9.140 ; 9.140 ; 9.140 ;
+; in_x1      ; out_y       ; 9.183 ; 9.183 ; 9.183 ; 9.183 ;
+; in_x2      ; out_y       ; 8.651 ; 8.651 ; 8.651 ; 8.651 ;
+; in_x3      ; out_y       ; 9.077 ; 9.077 ; 9.077 ; 9.077 ;
+; in_x4      ; out_y       ; 8.784 ; 8.784 ; 8.784 ; 8.784 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -226,10 +246,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; in_x1      ; out_y       ; 5.161 ; 5.161 ; 5.161 ; 5.161 ;
-; in_x2      ; out_y       ; 5.106 ; 5.106 ; 5.106 ; 5.106 ;
-; in_x3      ; out_y       ; 5.053 ; 5.053 ; 5.053 ; 5.053 ;
-; in_x4      ; out_y       ; 5.029 ; 5.029 ; 5.029 ; 5.029 ;
+; in2_x1     ; out2_y      ; 5.154 ; 5.154 ; 5.154 ; 5.154 ;
+; in2_x2     ; out2_y      ; 5.467 ; 5.467 ; 5.467 ; 5.467 ;
+; in2_x3     ; out2_y      ; 5.256 ; 5.256 ; 5.256 ; 5.256 ;
+; in2_x4     ; out2_y      ; 5.132 ; 5.132 ; 5.132 ; 5.132 ;
+; in_x1      ; out_y       ; 5.127 ; 5.127 ; 5.127 ; 5.127 ;
+; in_x2      ; out_y       ; 4.869 ; 4.869 ; 4.869 ; 4.869 ;
+; in_x3      ; out_y       ; 5.049 ; 5.049 ; 5.049 ; 5.049 ;
+; in_x4      ; out_y       ; 4.926 ; 4.926 ; 4.926 ; 4.926 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -258,10 +282,10 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 4     ; 4    ;
-; Unconstrained Input Port Paths  ; 4     ; 4    ;
-; Unconstrained Output Ports      ; 1     ; 1    ;
-; Unconstrained Output Port Paths ; 4     ; 4    ;
+; Unconstrained Input Ports       ; 8     ; 8    ;
+; Unconstrained Input Port Paths  ; 8     ; 8    ;
+; Unconstrained Output Ports      ; 2     ; 2    ;
+; Unconstrained Output Port Paths ; 8     ; 8    ;
 +---------------------------------+-------+------+
 
 
@@ -271,7 +295,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Oct 18 23:53:26 2020
+    Info: Processing started: Mon Oct 19 02:03:05 2020
 Info: Command: quartus_sta CL_Dominskyi_v1 -c CL_Dominskyi_v1
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -305,8 +329,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 4516 megabytes
-    Info: Processing ended: Sun Oct 18 23:53:26 2020
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Mon Oct 19 02:03:06 2020
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

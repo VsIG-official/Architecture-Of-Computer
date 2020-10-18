@@ -4,6 +4,31 @@ in_x4 => LC1:inst.x4
 in_x3 => LC1:inst.x3
 in_x2 => LC1:inst.x2
 in_x1 => LC1:inst.x1
+out2_y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+in2_x3 => inst266.IN0
+in2_x3 => inst15.IN0
+in2_x3 => inst16.IN0
+in2_x3 => inst18.IN0
+in2_x3 => inst34.IN0
+in2_x3 => inst25.IN0
+in2_x2 => inst266.IN1
+in2_x2 => inst27.IN1
+in2_x2 => inst17.IN0
+in2_x2 => inst19.IN0
+in2_x2 => inst22.IN0
+in2_x2 => inst37.IN1
+in2_x4 => inst266.IN2
+in2_x4 => inst27.IN2
+in2_x4 => inst30.IN2
+in2_x4 => inst32.IN2
+in2_x4 => inst21.IN0
+in2_x4 => inst23.IN0
+in2_x1 => inst28.IN1
+in2_x1 => inst29.IN1
+in2_x1 => inst31.IN1
+in2_x1 => inst20.IN0
+in2_x1 => inst35.IN1
+in2_x1 => inst24.IN0
 
 
 |CL_Dominskyi_v1|LC1:inst
