@@ -1,0 +1,172 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(alias "<<__$DEF_ALIAS2>>""in_x4")
+(alias "<<__$DEF_ALIAS4>>""in_x2")
+(alias "<<__$DEF_ALIAS3>>""in_x3")
+(alias "<<__$DEF_ALIAS5>>""in_x1")
+(pin
+	(input)
+	(rect 56 112 224 128)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "in_x4" (rect 5 0 31 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 56 152 224 168)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "in_x3" (rect 5 0 31 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 56 192 224 208)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "in_x2" (rect 5 0 31 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 56 232 224 248)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "in_x1" (rect 5 0 31 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 616 176 792 192)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "y" (rect 90 0 97 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(block
+	(rect 272 88 552 272)
+	(text "LC2" (rect 5 5 27 19)(font "Arial" (font_size 8)))	(text "inst" (rect 5 169 22 181)(font "Arial" ))	(block_io "x4" (input))
+	(block_io "x3" (input))
+	(block_io "x2" (input))
+	(block_io "x1" (input))
+	(block_io "y" (output))
+	(mapper
+		(pt 0 32)
+		(input)
+		(mapping "x4" "in_x4" )
+		(annotation_block (mapping)(rect 152 56 240 88))
+	)
+	(mapper
+		(pt 0 72)
+		(input)
+		(mapping "x3" "in_x3" )
+		(annotation_block (mapping)(rect 40 56 128 88))
+	)
+	(mapper
+		(pt 0 112)
+		(input)
+		(mapping "x2" "in_x2" )
+		(annotation_block (mapping)(rect 40 264 128 296))
+	)
+	(mapper
+		(pt 0 152)
+		(input)
+		(mapping "x1" "in_x1" )
+		(annotation_block (mapping)(rect 152 264 240 296))
+	)
+	(mapper
+		(pt 280 96)
+		(output)
+		(mapping "y" "y" )
+		(annotation_block (mapping)(rect 568 120 656 152))
+	)
+)
+(connector
+	(text "<<__$DEF_ALIAS2>>" (rect 0 0 106 12)(font "Arial" )(invisible))
+	(pt 224 120)
+	(pt 272 120)
+	(conduit)
+)
+(connector
+	(text "<<__$DEF_ALIAS3>>" (rect 0 0 106 12)(font "Arial" )(invisible))
+	(pt 224 160)
+	(pt 272 160)
+	(conduit)
+)
+(connector
+	(text "<<__$DEF_ALIAS4>>" (rect 0 0 106 12)(font "Arial" )(invisible))
+	(pt 224 200)
+	(pt 272 200)
+	(conduit)
+)
+(connector
+	(text "<<__$DEF_ALIAS5>>" (rect 0 0 106 12)(font "Arial" )(invisible))
+	(pt 224 240)
+	(pt 272 240)
+	(conduit)
+)
+(connector
+	(text "y" (rect 562 168 568 180)(font "Arial" ))
+	(pt 616 184)
+	(pt 552 184)
+)

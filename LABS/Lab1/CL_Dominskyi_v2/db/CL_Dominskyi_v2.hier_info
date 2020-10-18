@@ -1,0 +1,21 @@
+|CL_Dominskyi_v2
+y <= LC2:inst.y
+in_x4 => LC2:inst.x4
+in_x3 => LC2:inst.x3
+in_x2 => LC2:inst.x2
+in_x1 => LC2:inst.x1
+
+
+|CL_Dominskyi_v2|LC2:inst
+y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+x4 => gdfx_temp0.IN0
+x2 => gdfx_temp0.IN1
+x3 => gdfx_temp0.IN2
+x1 => inst28.IN1
+x1 => inst29.IN1
+x1 => inst31.IN1
+x1 => inst20.IN0
+x1 => inst35.IN1
+x1 => inst24.IN0
+
+
