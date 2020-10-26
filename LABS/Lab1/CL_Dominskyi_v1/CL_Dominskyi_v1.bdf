@@ -21,8 +21,8 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (alias "<<__$DEF_ALIAS11>>""in_x3")
 (alias "<<__$DEF_ALIAS13>>""in_x4")
-(alias "<<__$DEF_ALIAS10>>""in_x2")
 (alias "<<__$DEF_ALIAS8>>""in_x4;in_x1")
+(alias "<<__$DEF_ALIAS10>>""in_x2")
 (pin
 	(input)
 	(rect -128 208 40 224)
@@ -91,7 +91,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 472 368 488)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in2_x3" (rect 5 0 37 12)(font "Arial" ))
+	(text "in2_x3" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -107,7 +107,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 520 368 536)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in2_x2" (rect 5 0 37 12)(font "Arial" ))
+	(text "in2_x2" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -123,7 +123,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 568 368 584)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in2_x1" (rect 5 0 37 12)(font "Arial" ))
+	(text "in2_x1" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -139,7 +139,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 424 368 440)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "in2_x4" (rect 5 0 37 12)(font "Arial" ))
+	(text "in2_x4" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
