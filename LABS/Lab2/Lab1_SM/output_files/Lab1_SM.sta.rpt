@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Lab1_SM
-Thu Oct 29 00:27:39 2020
+Thu Oct 29 00:34:40 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -126,8 +126,12 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; inx        ; outz        ; 8.508 ; 8.508 ; 8.508 ; 8.508 ;
-; iny        ; outz        ; 8.828 ; 8.828 ; 8.828 ; 8.828 ;
+; inx        ; outs        ; 9.078 ; 9.078 ; 9.078 ; 9.078 ;
+; inx        ; outz        ; 9.191 ; 9.191 ; 9.191 ; 9.191 ;
+; iny        ; outs        ; 9.054 ; 9.054 ; 9.054 ; 9.054 ;
+; iny        ; outz        ; 9.167 ; 9.167 ; 9.167 ; 9.167 ;
+; inz        ; outs        ; 9.214 ; 9.214 ; 9.214 ; 9.214 ;
+; inz        ; outz        ; 9.318 ;       ;       ; 9.318 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -136,8 +140,12 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; inx        ; outz        ; 8.508 ; 8.508 ; 8.508 ; 8.508 ;
-; iny        ; outz        ; 8.828 ; 8.828 ; 8.828 ; 8.828 ;
+; inx        ; outs        ; 9.078 ; 9.078 ; 9.078 ; 9.078 ;
+; inx        ; outz        ; 9.191 ; 9.191 ; 9.191 ; 9.191 ;
+; iny        ; outs        ; 9.054 ; 9.054 ; 9.054 ; 9.054 ;
+; iny        ; outz        ; 9.167 ; 9.167 ; 9.167 ; 9.167 ;
+; inz        ; outs        ; 9.214 ; 9.214 ; 9.214 ; 9.214 ;
+; inz        ; outz        ; 9.318 ;       ;       ; 9.318 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -176,8 +184,12 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; inx        ; outz        ; 4.809 ; 4.809 ; 4.809 ; 4.809 ;
-; iny        ; outz        ; 4.949 ; 4.949 ; 4.949 ; 4.949 ;
+; inx        ; outs        ; 5.067 ; 5.067 ; 5.067 ; 5.067 ;
+; inx        ; outz        ; 5.174 ; 5.174 ; 5.174 ; 5.174 ;
+; iny        ; outs        ; 5.043 ; 5.043 ; 5.043 ; 5.043 ;
+; iny        ; outz        ; 5.150 ; 5.150 ; 5.150 ; 5.150 ;
+; inz        ; outs        ; 5.122 ; 5.122 ; 5.122 ; 5.122 ;
+; inz        ; outz        ; 5.219 ;       ;       ; 5.219 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -186,8 +198,12 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; inx        ; outz        ; 4.809 ; 4.809 ; 4.809 ; 4.809 ;
-; iny        ; outz        ; 4.949 ; 4.949 ; 4.949 ; 4.949 ;
+; inx        ; outs        ; 5.067 ; 5.067 ; 5.067 ; 5.067 ;
+; inx        ; outz        ; 5.174 ; 5.174 ; 5.174 ; 5.174 ;
+; iny        ; outs        ; 5.043 ; 5.043 ; 5.043 ; 5.043 ;
+; iny        ; outz        ; 5.150 ; 5.150 ; 5.150 ; 5.150 ;
+; inz        ; outs        ; 5.122 ; 5.122 ; 5.122 ; 5.122 ;
+; inz        ; outz        ; 5.219 ;       ;       ; 5.219 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -206,8 +222,12 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; inx        ; outz        ; 8.508 ; 8.508 ; 8.508 ; 8.508 ;
-; iny        ; outz        ; 8.828 ; 8.828 ; 8.828 ; 8.828 ;
+; inx        ; outs        ; 9.078 ; 9.078 ; 9.078 ; 9.078 ;
+; inx        ; outz        ; 9.191 ; 9.191 ; 9.191 ; 9.191 ;
+; iny        ; outs        ; 9.054 ; 9.054 ; 9.054 ; 9.054 ;
+; iny        ; outz        ; 9.167 ; 9.167 ; 9.167 ; 9.167 ;
+; inz        ; outs        ; 9.214 ; 9.214 ; 9.214 ; 9.214 ;
+; inz        ; outz        ; 9.318 ;       ;       ; 9.318 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -216,8 +236,12 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; inx        ; outz        ; 4.809 ; 4.809 ; 4.809 ; 4.809 ;
-; iny        ; outz        ; 4.949 ; 4.949 ; 4.949 ; 4.949 ;
+; inx        ; outs        ; 5.067 ; 5.067 ; 5.067 ; 5.067 ;
+; inx        ; outz        ; 5.174 ; 5.174 ; 5.174 ; 5.174 ;
+; iny        ; outs        ; 5.043 ; 5.043 ; 5.043 ; 5.043 ;
+; iny        ; outz        ; 5.150 ; 5.150 ; 5.150 ; 5.150 ;
+; inz        ; outs        ; 5.122 ; 5.122 ; 5.122 ; 5.122 ;
+; inz        ; outz        ; 5.219 ;       ;       ; 5.219 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -246,10 +270,10 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 2     ; 2    ;
-; Unconstrained Input Port Paths  ; 2     ; 2    ;
-; Unconstrained Output Ports      ; 1     ; 1    ;
-; Unconstrained Output Port Paths ; 2     ; 2    ;
+; Unconstrained Input Ports       ; 3     ; 3    ;
+; Unconstrained Input Port Paths  ; 6     ; 6    ;
+; Unconstrained Output Ports      ; 2     ; 2    ;
+; Unconstrained Output Port Paths ; 6     ; 6    ;
 +---------------------------------+-------+------+
 
 
@@ -259,7 +283,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 29 00:27:38 2020
+    Info: Processing started: Thu Oct 29 00:34:39 2020
 Info: Command: quartus_sta Lab1_SM -c Lab1_SM
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -293,7 +317,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 4516 megabytes
-    Info: Processing ended: Thu Oct 29 00:27:39 2020
+    Info: Processing ended: Thu Oct 29 00:34:40 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

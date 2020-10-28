@@ -7,7 +7,6 @@ outz <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Lab1_SM|SM2:inst2
-clock => clock.IN1
 dataa[0] => dataa[0].IN1
 datab[0] => datab[0].IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
@@ -15,31 +14,27 @@ result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
 
 |Lab1_SM|SM2:inst2|lpm_add_sub:LPM_ADD_SUB_component
-dataa[0] => add_sub_p0k:auto_generated.dataa[0]
-datab[0] => add_sub_p0k:auto_generated.datab[0]
+dataa[0] => add_sub_03i:auto_generated.dataa[0]
+datab[0] => add_sub_03i:auto_generated.datab[0]
 cin => ~NO_FANOUT~
 add_sub => ~NO_FANOUT~
-clock => add_sub_p0k:auto_generated.clock
+clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
-result[0] <= add_sub_p0k:auto_generated.result[0]
-cout <= add_sub_p0k:auto_generated.cout
+result[0] <= add_sub_03i:auto_generated.result[0]
+cout <= add_sub_03i:auto_generated.cout
 overflow <= <GND>
 
 
-|Lab1_SM|SM2:inst2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_p0k:auto_generated
-clock => cout_regrsa[1].CLK
-clock => cout_regrsa[0].CLK
-clock => pad_regrsa[1].CLK
-clock => pad_regrsa[0].CLK
-cout <= cout_regrsa[1].DB_MAX_OUTPUT_PORT_TYPE
+|Lab1_SM|SM2:inst2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_03i:auto_generated
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => carry_eqn[0].IN0
 dataa[0] => _.IN0
 dataa[0] => sum_eqn[0].IN0
 datab[0] => carry_eqn[0].IN1
 datab[0] => _.IN1
 datab[0] => sum_eqn[0].IN1
-result[0] <= pad_regrsa[1].DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Lab1_SM|SM1:inst
