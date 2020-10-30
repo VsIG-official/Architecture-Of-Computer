@@ -37,13 +37,11 @@
 `timescale 1 ps / 1 ps
 // synopsys translate_on
 module SM2 (
-	clock,
 	dataa,
 	datab,
 	cout,
 	result);
 
-	input	  clock;
 	input	[0:0]  dataa;
 	input	[0:0]  datab;
 	output	  cout;
@@ -55,9 +53,8 @@ module SM2 (
 	wire [0:0] result = sub_wire1[0:0];
 
 	lpm_add_sub	LPM_ADD_SUB_component (
-				.clock (clock),
-				.datab (datab),
 				.dataa (dataa),
+				.datab (datab),
 				.cout (sub_wire0),
 				.result (sub_wire1)
 				// synopsys translate_off
@@ -66,13 +63,13 @@ module SM2 (
 				.add_sub (),
 				.cin (),
 				.clken (),
+				.clock (),
 				.overflow ()
 				// synopsys translate_on
 				);
 	defparam
 		LPM_ADD_SUB_component.lpm_direction = "ADD",
 		LPM_ADD_SUB_component.lpm_hint = "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=NO",
-		LPM_ADD_SUB_component.lpm_pipeline = 2,
 		LPM_ADD_SUB_component.lpm_representation = "UNSIGNED",
 		LPM_ADD_SUB_component.lpm_type = "LPM_ADD_SUB",
 		LPM_ADD_SUB_component.lpm_width = 1;
@@ -89,8 +86,8 @@ endmodule
 // Retrieval info: PRIVATE: ConstantB NUMERIC "0"
 // Retrieval info: PRIVATE: Function NUMERIC "0"
 // Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone II"
-// Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "2"
-// Retrieval info: PRIVATE: Latency NUMERIC "1"
+// Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
+// Retrieval info: PRIVATE: Latency NUMERIC "0"
 // Retrieval info: PRIVATE: Overflow NUMERIC "0"
 // Retrieval info: PRIVATE: RadixA NUMERIC "10"
 // Retrieval info: PRIVATE: RadixB NUMERIC "10"
@@ -106,16 +103,13 @@ endmodule
 // Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 // Retrieval info: CONSTANT: LPM_DIRECTION STRING "ADD"
 // Retrieval info: CONSTANT: LPM_HINT STRING "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=NO"
-// Retrieval info: CONSTANT: LPM_PIPELINE NUMERIC "2"
 // Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_ADD_SUB"
 // Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "1"
-// Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL "clock"
 // Retrieval info: USED_PORT: cout 0 0 0 0 OUTPUT NODEFVAL "cout"
 // Retrieval info: USED_PORT: dataa 0 0 1 0 INPUT NODEFVAL "dataa[0..0]"
 // Retrieval info: USED_PORT: datab 0 0 1 0 INPUT NODEFVAL "datab[0..0]"
 // Retrieval info: USED_PORT: result 0 0 1 0 OUTPUT NODEFVAL "result[0..0]"
-// Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 // Retrieval info: CONNECT: @dataa 0 0 1 0 dataa 0 0 1 0
 // Retrieval info: CONNECT: @datab 0 0 1 0 datab 0 0 1 0
 // Retrieval info: CONNECT: cout 0 0 0 0 @cout 0 0 0 0
@@ -124,6 +118,6 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL SM2.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL SM2.cmp FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL SM2.bsf TRUE
-// Retrieval info: GEN_FILE: TYPE_NORMAL SM2_inst.v FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL SM2_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL SM2_bb.v FALSE
 // Retrieval info: LIB_FILE: lpm
