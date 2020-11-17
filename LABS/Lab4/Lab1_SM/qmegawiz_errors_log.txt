@@ -1,0 +1,13 @@
+
+
+D:/ForStudy/Architecure-Of-Computer/Architecture-Of-Computer/LABS/Lab2/Lab1_SM/SM2.v
+
+Oct 29 12AM:19:26>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+SM2.bdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?

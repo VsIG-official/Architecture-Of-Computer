@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab1_SM">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab1_SM|SM2:inst2|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_03i.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
