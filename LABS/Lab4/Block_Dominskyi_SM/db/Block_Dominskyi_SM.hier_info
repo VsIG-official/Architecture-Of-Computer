@@ -36,9 +36,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -57,15 +57,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -78,9 +78,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst1|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -99,15 +99,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst1|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -120,9 +120,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst2|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -141,15 +141,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst2|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -162,9 +162,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst3|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -183,15 +183,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst3|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -204,9 +204,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst4|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -225,15 +225,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst4|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -246,9 +246,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst5|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -267,15 +267,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst5|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -288,9 +288,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst6|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -309,15 +309,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst6|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -330,9 +330,9 @@ outz <= SM2_v2:inst.cout
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst7|SM2_v2:inst
-cin => cin.IN1
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+cin => cin~0.IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -351,15 +351,15 @@ overflow <= <GND>
 
 
 |Block_Dominskyi_SM|Lab2_SM_v2:inst7|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
-cin => carry_eqn[0].IN1
+cin => carry_eqn[0]~1.IN1
 cin => sum_eqn[0].IN1
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 
