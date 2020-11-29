@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Mega_Dominskyi_SM">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Mega_Dominskyi_SM|Mega_Dominskyi_SM_Sum:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_1ei.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Block_Dominskyi_SM">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst2|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst4|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst6|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst1|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst3|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst5|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block_Dominskyi_SM|Lab2_SM_v2:inst7|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdi.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

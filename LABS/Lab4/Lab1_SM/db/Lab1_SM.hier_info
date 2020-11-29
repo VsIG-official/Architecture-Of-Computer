@@ -7,8 +7,8 @@ outz <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Lab1_SM|SM2:inst2
-dataa[0] => dataa[0].IN1
-datab[0] => datab[0].IN1
+dataa[0] => dataa[0]~0.IN1
+datab[0] => datab[0]~0.IN1
 cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
 
@@ -28,12 +28,12 @@ overflow <= <GND>
 
 |Lab1_SM|SM2:inst2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_03i:auto_generated
 cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => carry_eqn[0].IN0
-dataa[0] => _.IN0
-dataa[0] => sum_eqn[0].IN0
-datab[0] => carry_eqn[0].IN1
-datab[0] => _.IN1
-datab[0] => sum_eqn[0].IN1
+dataa[0] => carry_eqn[0]~0.IN0
+dataa[0] => _~0.IN0
+dataa[0] => sum_eqn[0]~0.IN0
+datab[0] => carry_eqn[0]~0.IN1
+datab[0] => _~0.IN1
+datab[0] => sum_eqn[0]~0.IN1
 result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
 
 

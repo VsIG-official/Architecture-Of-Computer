@@ -1,0 +1,365 @@
+|Block_Dominskyi_SM
+out_s1 <= Lab2_SM_v2:inst.outs
+in_x1 => Lab2_SM_v2:inst.inx
+in_y1 => Lab2_SM_v2:inst.iny
+in_z => Lab2_SM_v2:inst.inz
+out_s2 <= Lab2_SM_v2:inst1.outs
+in_x2 => Lab2_SM_v2:inst1.inx
+in_y2 => Lab2_SM_v2:inst1.iny
+out_s3 <= Lab2_SM_v2:inst2.outs
+in_x3 => Lab2_SM_v2:inst2.inx
+in_y3 => Lab2_SM_v2:inst2.iny
+out_s4 <= Lab2_SM_v2:inst3.outs
+in_x4 => Lab2_SM_v2:inst3.inx
+in_y4 => Lab2_SM_v2:inst3.iny
+out_s5 <= Lab2_SM_v2:inst4.outs
+in_x5 => Lab2_SM_v2:inst4.inx
+in_y5 => Lab2_SM_v2:inst4.iny
+out_s6 <= Lab2_SM_v2:inst5.outs
+in_x6 => Lab2_SM_v2:inst5.inx
+in_y6 => Lab2_SM_v2:inst5.iny
+out_s7 <= Lab2_SM_v2:inst6.outs
+in_x7 => Lab2_SM_v2:inst6.inx
+in_y7 => Lab2_SM_v2:inst6.iny
+out_z1 <= Lab2_SM_v2:inst7.outz
+in_x8 => Lab2_SM_v2:inst7.inx
+in_y8 => Lab2_SM_v2:inst7.iny
+out_s8 <= Lab2_SM_v2:inst7.outs
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst1
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst1|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst1|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst1|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst2
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst2|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst2|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst2|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst3
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst3|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst3|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst3|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst4
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst4|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst4|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst4|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst5
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst5|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst5|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst5|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst6
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst6|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst6|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst6|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst7
+outs <= SM2_v2:inst.result[0]
+inx => SM2_v2:inst.cin
+iny => SM2_v2:inst.dataa[0]
+inz => SM2_v2:inst.datab[0]
+outz <= SM2_v2:inst.cout
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst7|SM2_v2:inst
+cin => cin.IN1
+dataa[0] => dataa[0].IN1
+datab[0] => datab[0].IN1
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst7|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_qdi:auto_generated.dataa[0]
+datab[0] => add_sub_qdi:auto_generated.datab[0]
+cin => add_sub_qdi:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_qdi:auto_generated.result[0]
+cout <= add_sub_qdi:auto_generated.cout
+overflow <= <GND>
+
+
+|Block_Dominskyi_SM|Lab2_SM_v2:inst7|SM2_v2:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_qdi:auto_generated
+cin => carry_eqn[0].IN1
+cin => sum_eqn[0].IN1
+cout <= carry_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => carry_eqn[0].IN0
+dataa[0] => _.IN0
+dataa[0] => sum_eqn[0].IN0
+datab[0] => carry_eqn[0].IN1
+datab[0] => _.IN1
+datab[0] => sum_eqn[0].IN1
+result[0] <= sum_eqn[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
