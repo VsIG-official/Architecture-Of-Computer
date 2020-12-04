@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Mega_Dominskyi_SM
-Sun Nov 29 02:14:13 2020
+Mon Nov 30 09:43:58 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -829,7 +829,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Nov 29 02:14:12 2020
+    Info: Processing started: Mon Nov 30 09:43:57 2020
 Info: Command: quartus_sta Mega_Dominskyi_SM -c Mega_Dominskyi_SM
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -862,9 +862,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4517 megabytes
-    Info: Processing ended: Sun Nov 29 02:14:13 2020
+    Info: Peak virtual memory: 4516 megabytes
+    Info: Processing ended: Mon Nov 30 09:43:58 2020
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

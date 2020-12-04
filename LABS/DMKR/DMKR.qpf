@@ -18,14 +18,13 @@
 #
 # Quartus II 64-Bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-# Date created = 09:23:40  November 30, 2020
+# Date created = 11:18:44  December 04, 2020
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.0"
-DATE = "09:23:40  November 30, 2020"
+DATE = "11:18:44  December 04, 2020"
 
 # Revisions
 
-PROJECT_REVISION = "Lab2_SM_v2"
-PROJECT_REVISION = "Lab1_SM"
+PROJECT_REVISION = "DMKR"
