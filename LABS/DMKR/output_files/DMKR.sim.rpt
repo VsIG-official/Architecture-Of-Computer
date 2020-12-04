@@ -1,0 +1,297 @@
+Simulator report for DMKR
+Fri Dec 04 20:02:13 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 68 nodes     ;
+; Simulation Coverage         ;       1.47 % ;
+; Total Number of Transitions ; 99           ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                                                    ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                                                  ; Default Value ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                                               ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                                                     ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                                                      ;               ;
+; Vector input source                                                                        ; D:/ForStudy/Architecure-Of-Computer/Architecture-Of-Computer/LABS/DMKR/MDKR_Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                                                       ; On            ;
+; Check outputs                                                                              ; Off                                                                                      ; Off           ;
+; Report simulation coverage                                                                 ; On                                                                                       ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                                                       ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                                                       ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                                                       ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                                                      ; Off           ;
+; Detect glitches                                                                            ; Off                                                                                      ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                                                      ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                                                      ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                                                      ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                                                      ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                                                       ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                                               ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                                                      ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                                                      ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                                                     ; Auto          ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       1.47 % ;
+; Total nodes checked                                 ; 68           ;
+; Total output ports checked                          ; 68           ;
+; Total output ports with complete 1/0-value coverage ; 1            ;
+; Total output ports with no 1/0-value coverage       ; 67           ;
+; Total output ports with no 1-value coverage         ; 67           ;
+; Total output ports with no 0-value coverage         ; 67           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+; |DMKR|G   ; |DMKR|G          ; out              ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-----------------------------------------------------+
+; Missing 1-Value Coverage                            ;
++---------------+------------------+------------------+
+; Node Name     ; Output Port Name ; Output Port Type ;
++---------------+------------------+------------------+
+; |DMKR|y1      ; |DMKR|y1         ; pin_out          ;
+; |DMKR|inst45  ; |DMKR|inst45     ; out0             ;
+; |DMKR|inst43  ; |DMKR|inst43     ; out0             ;
+; |DMKR|inst2   ; |DMKR|inst2      ; regout           ;
+; |DMKR|reset   ; |DMKR|reset      ; out              ;
+; |DMKR|inst28  ; |DMKR|inst28     ; out0             ;
+; |DMKR|inst26  ; |DMKR|inst26     ; out0             ;
+; |DMKR|inst857 ; |DMKR|inst857    ; out0             ;
+; |DMKR|inst556 ; |DMKR|inst556    ; out0             ;
+; |DMKR|inst1   ; |DMKR|inst1      ; regout           ;
+; |DMKR|inst16  ; |DMKR|inst16     ; out0             ;
+; |DMKR|inst23  ; |DMKR|inst23     ; out0             ;
+; |DMKR|inst511 ; |DMKR|inst511    ; out0             ;
+; |DMKR|inst    ; |DMKR|inst       ; regout           ;
+; |DMKR|inst701 ; |DMKR|inst701    ; out0             ;
+; |DMKR|inst767 ; |DMKR|inst767    ; out0             ;
+; |DMKR|inst512 ; |DMKR|inst512    ; out0             ;
+; |DMKR|inst101 ; |DMKR|inst101    ; out0             ;
+; |DMKR|inst715 ; |DMKR|inst715    ; out0             ;
+; |DMKR|x2      ; |DMKR|x2         ; out              ;
+; |DMKR|x1      ; |DMKR|x1         ; out              ;
+; |DMKR|inst8   ; |DMKR|inst8      ; out0             ;
+; |DMKR|inst733 ; |DMKR|inst733    ; out0             ;
+; |DMKR|inst801 ; |DMKR|inst801    ; out0             ;
+; |DMKR|inst9   ; |DMKR|inst9      ; out0             ;
+; |DMKR|inst3   ; |DMKR|inst3      ; regout           ;
+; |DMKR|inst35  ; |DMKR|inst35     ; out0             ;
+; |DMKR|inst33  ; |DMKR|inst33     ; out0             ;
+; |DMKR|inst29  ; |DMKR|inst29     ; out0             ;
+; |DMKR|inst30  ; |DMKR|inst30     ; out0             ;
+; |DMKR|inst34  ; |DMKR|inst34     ; out0             ;
+; |DMKR|inst31  ; |DMKR|inst31     ; out0             ;
+; |DMKR|inst32  ; |DMKR|inst32     ; out0             ;
+; |DMKR|inst10  ; |DMKR|inst10     ; out0             ;
+; |DMKR|inst24  ; |DMKR|inst24     ; out0             ;
+; |DMKR|inst913 ; |DMKR|inst913    ; out0             ;
+; |DMKR|inst11  ; |DMKR|inst11     ; out0             ;
+; |DMKR|inst12  ; |DMKR|inst12     ; out0             ;
+; |DMKR|inst788 ; |DMKR|inst788    ; out0             ;
+; |DMKR|inst13  ; |DMKR|inst13     ; out0             ;
+; |DMKR|inst14  ; |DMKR|inst14     ; out0             ;
+; |DMKR|inst15  ; |DMKR|inst15     ; out0             ;
+; |DMKR|inst17  ; |DMKR|inst17     ; out0             ;
+; |DMKR|inst25  ; |DMKR|inst25     ; out0             ;
+; |DMKR|inst18  ; |DMKR|inst18     ; out0             ;
+; |DMKR|inst19  ; |DMKR|inst19     ; out0             ;
+; |DMKR|inst27  ; |DMKR|inst27     ; out0             ;
+; |DMKR|inst20  ; |DMKR|inst20     ; out0             ;
+; |DMKR|inst21  ; |DMKR|inst21     ; out0             ;
+; |DMKR|inst22  ; |DMKR|inst22     ; out0             ;
+; |DMKR|inst44  ; |DMKR|inst44     ; out0             ;
+; |DMKR|y2      ; |DMKR|y2         ; pin_out          ;
+; |DMKR|inst41  ; |DMKR|inst41     ; out0             ;
+; |DMKR|inst39  ; |DMKR|inst39     ; out0             ;
+; |DMKR|inst40  ; |DMKR|inst40     ; out0             ;
+; |DMKR|inst42  ; |DMKR|inst42     ; out0             ;
+; |DMKR|y3      ; |DMKR|y3         ; pin_out          ;
+; |DMKR|inst38  ; |DMKR|inst38     ; out0             ;
+; |DMKR|inst36  ; |DMKR|inst36     ; out0             ;
+; |DMKR|inst37  ; |DMKR|inst37     ; out0             ;
+; |DMKR|y4      ; |DMKR|y4         ; pin_out          ;
+; |DMKR|inst7   ; |DMKR|inst7      ; out0             ;
+; |DMKR|y5      ; |DMKR|y5         ; pin_out          ;
+; |DMKR|Q1      ; |DMKR|Q1         ; pin_out          ;
+; |DMKR|Q2      ; |DMKR|Q2         ; pin_out          ;
+; |DMKR|Q3      ; |DMKR|Q3         ; pin_out          ;
+; |DMKR|Q4      ; |DMKR|Q4         ; pin_out          ;
++---------------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-----------------------------------------------------+
+; Missing 0-Value Coverage                            ;
++---------------+------------------+------------------+
+; Node Name     ; Output Port Name ; Output Port Type ;
++---------------+------------------+------------------+
+; |DMKR|y1      ; |DMKR|y1         ; pin_out          ;
+; |DMKR|inst45  ; |DMKR|inst45     ; out0             ;
+; |DMKR|inst43  ; |DMKR|inst43     ; out0             ;
+; |DMKR|inst2   ; |DMKR|inst2      ; regout           ;
+; |DMKR|reset   ; |DMKR|reset      ; out              ;
+; |DMKR|inst28  ; |DMKR|inst28     ; out0             ;
+; |DMKR|inst26  ; |DMKR|inst26     ; out0             ;
+; |DMKR|inst857 ; |DMKR|inst857    ; out0             ;
+; |DMKR|inst556 ; |DMKR|inst556    ; out0             ;
+; |DMKR|inst1   ; |DMKR|inst1      ; regout           ;
+; |DMKR|inst16  ; |DMKR|inst16     ; out0             ;
+; |DMKR|inst23  ; |DMKR|inst23     ; out0             ;
+; |DMKR|inst511 ; |DMKR|inst511    ; out0             ;
+; |DMKR|inst    ; |DMKR|inst       ; regout           ;
+; |DMKR|inst701 ; |DMKR|inst701    ; out0             ;
+; |DMKR|inst767 ; |DMKR|inst767    ; out0             ;
+; |DMKR|inst512 ; |DMKR|inst512    ; out0             ;
+; |DMKR|inst101 ; |DMKR|inst101    ; out0             ;
+; |DMKR|inst715 ; |DMKR|inst715    ; out0             ;
+; |DMKR|x2      ; |DMKR|x2         ; out              ;
+; |DMKR|x1      ; |DMKR|x1         ; out              ;
+; |DMKR|inst8   ; |DMKR|inst8      ; out0             ;
+; |DMKR|inst733 ; |DMKR|inst733    ; out0             ;
+; |DMKR|inst801 ; |DMKR|inst801    ; out0             ;
+; |DMKR|inst9   ; |DMKR|inst9      ; out0             ;
+; |DMKR|inst3   ; |DMKR|inst3      ; regout           ;
+; |DMKR|inst35  ; |DMKR|inst35     ; out0             ;
+; |DMKR|inst33  ; |DMKR|inst33     ; out0             ;
+; |DMKR|inst29  ; |DMKR|inst29     ; out0             ;
+; |DMKR|inst30  ; |DMKR|inst30     ; out0             ;
+; |DMKR|inst34  ; |DMKR|inst34     ; out0             ;
+; |DMKR|inst31  ; |DMKR|inst31     ; out0             ;
+; |DMKR|inst32  ; |DMKR|inst32     ; out0             ;
+; |DMKR|inst10  ; |DMKR|inst10     ; out0             ;
+; |DMKR|inst24  ; |DMKR|inst24     ; out0             ;
+; |DMKR|inst913 ; |DMKR|inst913    ; out0             ;
+; |DMKR|inst11  ; |DMKR|inst11     ; out0             ;
+; |DMKR|inst12  ; |DMKR|inst12     ; out0             ;
+; |DMKR|inst788 ; |DMKR|inst788    ; out0             ;
+; |DMKR|inst13  ; |DMKR|inst13     ; out0             ;
+; |DMKR|inst14  ; |DMKR|inst14     ; out0             ;
+; |DMKR|inst15  ; |DMKR|inst15     ; out0             ;
+; |DMKR|inst17  ; |DMKR|inst17     ; out0             ;
+; |DMKR|inst25  ; |DMKR|inst25     ; out0             ;
+; |DMKR|inst18  ; |DMKR|inst18     ; out0             ;
+; |DMKR|inst19  ; |DMKR|inst19     ; out0             ;
+; |DMKR|inst27  ; |DMKR|inst27     ; out0             ;
+; |DMKR|inst20  ; |DMKR|inst20     ; out0             ;
+; |DMKR|inst21  ; |DMKR|inst21     ; out0             ;
+; |DMKR|inst22  ; |DMKR|inst22     ; out0             ;
+; |DMKR|inst44  ; |DMKR|inst44     ; out0             ;
+; |DMKR|y2      ; |DMKR|y2         ; pin_out          ;
+; |DMKR|inst41  ; |DMKR|inst41     ; out0             ;
+; |DMKR|inst39  ; |DMKR|inst39     ; out0             ;
+; |DMKR|inst40  ; |DMKR|inst40     ; out0             ;
+; |DMKR|inst42  ; |DMKR|inst42     ; out0             ;
+; |DMKR|y3      ; |DMKR|y3         ; pin_out          ;
+; |DMKR|inst38  ; |DMKR|inst38     ; out0             ;
+; |DMKR|inst36  ; |DMKR|inst36     ; out0             ;
+; |DMKR|inst37  ; |DMKR|inst37     ; out0             ;
+; |DMKR|y4      ; |DMKR|y4         ; pin_out          ;
+; |DMKR|inst7   ; |DMKR|inst7      ; out0             ;
+; |DMKR|y5      ; |DMKR|y5         ; pin_out          ;
+; |DMKR|Q1      ; |DMKR|Q1         ; pin_out          ;
+; |DMKR|Q2      ; |DMKR|Q2         ; pin_out          ;
+; |DMKR|Q3      ; |DMKR|Q3         ; pin_out          ;
+; |DMKR|Q4      ; |DMKR|Q4         ; pin_out          ;
++---------------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Dec 04 20:02:12 2020
+Info: Command: quartus_sim --simulation_results_format=VWF DMKR -c DMKR
+Info (324025): Using vector source file "D:/ForStudy/Architecure-Of-Computer/Architecture-Of-Computer/LABS/DMKR/MDKR_Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is       1.47 %
+Info (328052): Number of transitions in simulation is 99
+Info (324045): Vector file DMKR.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4446 megabytes
+    Info: Processing ended: Fri Dec 04 20:02:13 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

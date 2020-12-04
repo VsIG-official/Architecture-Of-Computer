@@ -1,0 +1,35 @@
+|DMKR
+y1 <= inst45.DB_MAX_OUTPUT_PORT_TYPE
+G => inst2.ACLR
+G => inst1.ACLR
+G => inst.ACLR
+G => inst3.ACLR
+reset => inst2.CLK
+reset => inst1.CLK
+reset => inst.CLK
+reset => inst3.CLK
+x2 => inst5.IN0
+x2 => inst12.IN1
+x2 => inst12.IN2
+x2 => inst19.IN1
+x2 => inst19.IN2
+x1 => inst715.IN1
+x1 => inst715.IN2
+x1 => inst801.IN2
+x1 => inst4.IN0
+x1 => inst10.IN2
+x1 => inst14.IN1
+x1 => inst14.IN2
+x1 => inst15.IN2
+x1 => inst17.IN0
+x1 => inst21.IN2
+y2 <= inst41.DB_MAX_OUTPUT_PORT_TYPE
+y3 <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+y4 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+y5 <= inst741.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q4 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
