@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DMKR
-Fri Dec 04 19:34:17 2020
+Sat Dec 05 20:20:59 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Dec 04 19:34:17 2020           ;
+; Analysis & Synthesis Status        ; Successful - Sat Dec 05 20:20:59 2020           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; DMKR                                            ;
 ; Top-level Entity Name              ; DMKR                                            ;
@@ -233,11 +233,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Dec 04 19:34:12 2020
+    Info: Processing started: Sat Dec 05 20:20:54 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DMKR -c DMKR
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file dmkr.bdf
     Info (12023): Found entity 1: DMKR
+Info (12021): Found 1 design units, including 1 entities, in source file dmkr_2.bdf
+    Info (12023): Found entity 1: DMKR_2
 Info (12127): Elaborating entity "DMKR" for the top level hierarchy
 Warning (275002): No superset bus at connection
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -248,7 +250,7 @@ Info (21057): Implemented 25 device resources after synthesis - the final resour
     Info (21061): Implemented 12 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 4585 megabytes
-    Info: Processing ended: Fri Dec 04 19:34:17 2020
+    Info: Processing ended: Sat Dec 05 20:20:59 2020
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:03
 

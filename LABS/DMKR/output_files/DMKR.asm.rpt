@@ -1,5 +1,5 @@
 Assembler report for DMKR
-Fri Dec 04 19:34:36 2020
+Sat Dec 05 20:21:14 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Dec 04 19:34:36 2020 ;
+; Assembler Status      ; Successful - Sat Dec 05 20:21:14 2020 ;
 ; Revision Name         ; DMKR                                  ;
 ; Top-level Entity Name ; DMKR                                  ;
 ; Family                ; Cyclone II                            ;
@@ -117,14 +117,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Dec 04 19:34:33 2020
+    Info: Processing started: Sat Dec 05 20:21:12 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off DMKR -c DMKR
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4544 megabytes
-    Info: Processing ended: Fri Dec 04 19:34:36 2020
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Processing ended: Sat Dec 05 20:21:14 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 
