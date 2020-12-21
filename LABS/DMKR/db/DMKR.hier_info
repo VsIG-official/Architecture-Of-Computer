@@ -1,13 +1,5 @@
 |DMKR_2_2
 y2 <= DMKR_2:inst1.y2
-cnt[0] <= Counter:inst8.q[0]
-cnt[1] <= Counter:inst8.q[1]
-cnt[2] <= Counter:inst8.q[2]
-cnt[3] <= Counter:inst8.q[3]
-cnt[4] <= Counter:inst8.q[4]
-cnt[5] <= Counter:inst8.q[5]
-cnt[6] <= Counter:inst8.q[6]
-cnt[7] <= Counter:inst8.q[7]
 start => Counter:inst8.sload
 start => inst20~0.IN1
 start => inst22.IN1

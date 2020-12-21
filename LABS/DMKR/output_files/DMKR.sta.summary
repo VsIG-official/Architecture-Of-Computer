@@ -3,19 +3,19 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'G2'
-Slack : -1.733
-TNS   : -11.388
+Slack : -1.841
+TNS   : -11.789
 
 Type  : Slow Model Setup 'G'
-Slack : -1.579
-TNS   : -14.057
+Slack : -1.683
+TNS   : -14.524
 
 Type  : Slow Model Hold 'G'
 Slack : 0.391
 TNS   : 0.000
 
 Type  : Slow Model Hold 'G2'
-Slack : 0.671
+Slack : 0.562
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'G2'
@@ -27,19 +27,19 @@ Slack : -1.380
 TNS   : -12.380
 
 Type  : Fast Model Setup 'G2'
-Slack : -0.228
-TNS   : -0.722
+Slack : -0.272
+TNS   : -0.896
 
 Type  : Fast Model Setup 'G'
-Slack : -0.140
-TNS   : -0.413
+Slack : -0.223
+TNS   : -0.957
 
 Type  : Fast Model Hold 'G'
 Slack : 0.215
 TNS   : 0.000
 
 Type  : Fast Model Hold 'G2'
-Slack : 0.330
+Slack : 0.263
 TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'G2'
