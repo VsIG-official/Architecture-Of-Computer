@@ -17,13 +17,8 @@ This repo was created for subject "Architecute Of Computer" and have both labs a
 
 ## Badges
 
-
-
----
-
-## Example
-
-
+> [![Theme](https://img.shields.io/badge/Theme-AoC-blue?style=flat-square)](https://en.wikipedia.org/wiki/Computer_architecture)
+> [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ---
 
