@@ -18,6 +18,7 @@ This repo was created for subject "Architecute Of Computer" and have both labs a
 ## Badges
 
 > [![Theme](https://img.shields.io/badge/Theme-AoC-blue?style=flat-square)](https://en.wikipedia.org/wiki/Computer_architecture)
+> [![Language](https://img.shields.io/badge/Language-Verilog-blue?style=flat-square)](https://en.wikipedia.org/wiki/Verilog)
 > [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ---
