@@ -13,7 +13,7 @@
 
 ### Description
 
-
+This repo was created for subject "Architecute Of Computer" and have both labs and lectures
 
 ## Badges
 
@@ -22,7 +22,6 @@
 ---
 
 ## Example
-
 
 
 
