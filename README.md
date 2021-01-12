@@ -1,7 +1,7 @@
 # Architecture Of Computer
 
 <p align="center">
-  <img src="https://github.com/VsIG-official/Images/blob/master/LogoFinalWhite.png" data-canonical-src="https://github.com/VsIG-official/Images/blob/master/LogoFinalWhite.png" width="200" height="100" />
+  <img src="https://github.com/VsIG-official/Architecture-Of-Computer/blob/master/photo_2021-01-12_17-44-29.jpg" data-canonical-src="https://github.com/VsIG-official/Architecture-Of-Computer/blob/master/photo_2021-01-12_17-44-29.jpg" width="400" height="400" />
 </p>
 
 ## Table of Contents
