@@ -13,7 +13,7 @@
 
 ### Description
 
-This repo was created for subject "Architecute Of Computer" and have both labs, lectures and even some control works
+This repo was created for subject "Architecute Of Computer" and have labs, lectures and even some control works
 
 ## Badges
 
